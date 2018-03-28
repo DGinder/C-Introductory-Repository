@@ -1,0 +1,22 @@
+Your Name.  Lab 7.
+
+Enter an integer value (0 to stop):  
+Enter an integer value for the left shift:  
+Original is 5 
+0000 0000 0000 0000 0000 0000 0000 0101 
+
+0000 0000 0000 0000 0000 0000 0101 0000 
+
+Shifted it is 80 
+
+Enter an integer value (0 to stop):  
+Enter an integer value for the left shift:  
+Original is -5 
+1111 1111 1111 1111 1111 1111 1111 1011 
+
+1111 1111 1111 1111 1111 1111 1011 1111 
+
+Shifted it is -65 
+
+Enter an integer value (0 to stop):  
+

@@ -1,0 +1,37 @@
+Script started on Tue 17 May 2016 09:34:43 AM PDT
+[ginderd@athena:21]> ls > ls.out
+ls.out: File exists.
+[ginderd@athena:22]> rm la[Ks.out
+[ginderd@athena:23]> ls > ls.out
+[ginderd@athena:24]> cat foo.txt
+cat: foo.txt: No such file or directory
+[ginderd@athena:25]> ls[K[Kwc < ls.out
+ 7  7 78
+[ginderd@athena:26]> ls
+a.out*	csc60mshell.c  Darrin_Ginder.lab8.txt  execvp.c  ls.out  redir.c  waitpid.c
+[ginderd@athena:27]> cd /usr/bin
+[ginderd@athena:28]> p[Kcd
+[ginderd@athena:29]> cd csc60
+[ginderd@athena:30]> cd ../
+[ginderd@athena:31]> pwd
+/gaia/class/student/ginderd
+[ginderd@athena:32]> /usr/bin/ps
+/usr/bin/ps: Command not found.
+[ginderd@athena:33]> find .-name foo1.txt
+find: `.-name': No such file or directory
+find: `foo1.txt': No such file or directory
+[ginderd@athena:34]> wc g[Kfoo1.txt
+wc: foo1.txt: No such file or directory
+[ginderd@athena:35]> pwd
+/gaia/class/student/ginderd
+[ginderd@athena:36]> cat foo1.txt ls.out > out.tx
+out.tx: File exists.
+[ginderd@athena:37]> gcc -oi[K test test.c -g
+gcc: test.c: No such file or directory
+gcc: no input files
+[ginderd@athena:38]> <carriage-return>
+Missing name for redirect.
+[ginderd@athena:39]> exit
+exit
+
+Script done on Tue 17 May 2016 09:37:18 AM PDT
